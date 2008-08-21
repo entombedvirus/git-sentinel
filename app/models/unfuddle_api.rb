@@ -3,7 +3,7 @@ require 'yaml'
 require 'pp'
 
 class UnfuddleAPI
-	CONFIG = YAML.load(File.read(File.join(Merb.root, 'config', 'unfuddlers_hub.yml')))
+	CONFIG = YAML.load(File.read(File.join(Merb.root, 'config', 'config.yml')))
 	API_HOST = "#{CONFIG["unfuddle"]["subdomain"]}.unfuddle.com"
 	#API_HOST = "127.0.0.1"
 
@@ -47,8 +47,6 @@ class UnfuddleAPI
 			request = method.new(path, {'Content-type' => 'application/xml'})
 			request.basic_auth @username, @password
 			request.body = xml if xml
-
-			puts API_HOST, path
 
 			response = http.request(request)
 			response.body

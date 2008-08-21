@@ -4,7 +4,7 @@ class Unfuddle
 	end
 
 	def unfuddle!
-		puts unfuddle_changesets!
+		unfuddle_changesets!
 	end
 
 	def unfuddle_changesets!
