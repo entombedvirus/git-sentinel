@@ -8,7 +8,7 @@ For example you can include something like "fixes #234, #87 and #42. closes #99"
 Inspiration
 -----------
 
-http://github.com/mbleigh/github-unfuddle by Michael Bleigh served as the inspiration for this project. 
+[github-unfuddle](http://github.com/mbleigh/github-unfuddle) by [Michael Bleigh](http://github.com/mbleigh/) served as the inspiration for this project. 
 
 Usage
 -----
@@ -21,4 +21,4 @@ Usage
 More Info
 ----------
 
-If you have any questions or suggestions, please make a note in the wiki (http://github.com/entombedvirus/git-sentinel/wikis).
+If you have any questions or suggestions, please make a note in the [wiki](http://github.com/entombedvirus/git-sentinel/wikis).
