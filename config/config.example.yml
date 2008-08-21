@@ -1,0 +1,13 @@
+unfuddle:
+  subdomain: <your unfuddle subdomain>
+  use_ssl: <does not work, yet>
+  username: deploy
+  password: supah-seckret
+  people:
+    <github-email-address>: <unfuddle user id>
+    "you@domain.com": 2133
+repositories:
+  <githhub project name>:
+    unfuddle_project_id: 1234
+    repository_id: 12345
+    
